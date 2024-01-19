@@ -1,0 +1,36 @@
+ /* footer */
+
+.footer {
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding-bottom: 30px;
+}
+
+.icons img {
+    width: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 605px) {
+  
+    .copyright {
+      font-size: 0.8rem; 
+    }
+  
+    .icons img {
+      width: 28px;
+    }
+    
+  }

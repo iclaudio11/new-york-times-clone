@@ -1,0 +1,14 @@
+/* nav */
+
+.custom-nav .nav-link {
+    color: black;
+    transition: color 0.5s ease; 
+  }
+  
+  .custom-nav .nav-link:hover {
+    background-color: #e2e2e2; 
+    border-radius: 15px;
+    transition: background-color 0.5s ease; 
+  }
+  
+  
