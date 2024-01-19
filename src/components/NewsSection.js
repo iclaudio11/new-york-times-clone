@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useGlobalContext } from '../context/AppContext';
 import '../assets/css/newsSection.css';
 
+
 const NewsSection = ({ section }) => {
   const { formatSection } = useGlobalContext();
   const [news, setNews] = useState([]);
@@ -23,14 +24,15 @@ const NewsSection = ({ section }) => {
   return (
     <div className="news-section">
       {news &&
-        news.map((article) => (
-          <div key={article.id} className="article-container">
+        news.map((article, index) => (
+          <div key={index} className="article-container">
             <div>
               <h2 className="article-title">{article.title}</h2>
               <p className="article-abstract">{article.abstract}</p>
             </div>
             {article.multimedia && article.multimedia.length > 0 && (
               <img
+                key={article.multimedia[0].url}
                 src={article.multimedia[0].url}
                 alt={article.multimedia[0].caption}
                 className="article-image"
@@ -43,3 +45,4 @@ const NewsSection = ({ section }) => {
 };
 
 export default NewsSection;
+
