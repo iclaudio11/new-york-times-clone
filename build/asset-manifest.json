@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/new-york-times-clone/static/css/main.f7db5984.css",
-    "main.js": "/new-york-times-clone/static/js/main.921c5abf.js",
-    "static/media/thenewyorktimeslogo.png": "/new-york-times-clone/static/media/thenewyorktimeslogo.465f3a074f50cb8762de.png",
-    "static/media/linkedin.png": "/new-york-times-clone/static/media/linkedin.032cf8a63be2f0f4d425.png",
-    "index.html": "/new-york-times-clone/index.html",
-    "main.f7db5984.css.map": "/new-york-times-clone/static/css/main.f7db5984.css.map",
-    "main.921c5abf.js.map": "/new-york-times-clone/static/js/main.921c5abf.js.map"
+    "main.css": "/static/css/main.f7db5984.css",
+    "main.js": "/static/js/main.846f898b.js",
+    "static/media/thenewyorktimeslogo.png": "/static/media/thenewyorktimeslogo.465f3a074f50cb8762de.png",
+    "static/media/linkedin.png": "/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "index.html": "/index.html",
+    "main.f7db5984.css.map": "/static/css/main.f7db5984.css.map",
+    "main.846f898b.js.map": "/static/js/main.846f898b.js.map"
   },
   "entrypoints": [
     "static/css/main.f7db5984.css",
-    "static/js/main.921c5abf.js"
+    "static/js/main.846f898b.js"
   ]
 }
