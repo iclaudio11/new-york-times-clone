@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import NewsSection from './components/NewsSection';
+import Navbar from './components/navbar/Navbar';
+import NewsSection from './components/newsSection/NewsSection';
 import { AppProvider } from './context/AppContext';
-import Footer from './components/Footer';
+import Footer from './components/footer/Footer';
 import './App.css';
 
 function App() {
